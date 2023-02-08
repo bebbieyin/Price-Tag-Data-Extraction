@@ -1,0 +1,2 @@
+python train.py --workers 1 --device 0 --batch-size 16 --epochs 10 --img 640 640 --hyp data/hyp.scratch.custom.yaml --name yolov7-custom --weights yolov7.pt
+python detect.py --weights trained.pt --conf 0.10 --img-size 640 --source "D:\MyFiles\Projects\PriceTag\dataset\price_tag\Train\Image\IMG_20230105_132911.jpg" --view-img --no-trace
