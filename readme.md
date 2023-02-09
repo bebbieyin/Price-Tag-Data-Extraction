@@ -31,6 +31,9 @@ python detect_custom.py
 ```
 Training and inference results will be stored in the yolov7/runs folder. 
 
+# Future Work & Improvements
+
+Training a text detection model on own dataset instead of using a pretrained model for inference would be a better way to improve on the results. 
 
 # Acknowledgement
 
